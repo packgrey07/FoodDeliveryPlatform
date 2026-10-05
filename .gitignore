@@ -1,0 +1,3 @@
+﻿**/target/
+**/ballerina-internal.log
+.DS_Store
