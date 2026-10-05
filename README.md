@@ -5,13 +5,13 @@ A distributed, scalable food delivery system built with Ballerina showcasing mic
 ## Architecture
 7 independent microservices communicating via REST through a central API Gateway. Each service owns its own logic and can be deployed independently.
 
-- **Order Service (8080)** - Creates and manages orders
-- **Payment Service (8081)** - Processes payments
-- **Restaurant Service (8082)** - Handles restaurant acceptance/rejection
-- **Delivery Service (8083)** - Assigns riders and tracks delivery
-- **Notification Service (8084)** - Sends real-time updates to customers
-- **API Gateway (8085)** - Single entry point, routes requests to services
-- **Admin Service (8087)** - Platform stats and monitoring
+* **Order Service (8080)** - Creates and manages orders
+* **Payment Service (8081)** - Processes payments
+* **Restaurant Service (8082)** - Handles restaurant acceptance/rejection
+* **Delivery Service (8083)** - Assigns riders and tracks delivery
+* **Notification Service (8084)** - Sends real-time updates to customers
+* **API Gateway (8085)** - Single entry point, routes requests to services
+* **Admin Service (8087)** - Platform stats and monitoring
 
 ## Order Lifecycle
 1. Customer places order -> Order Service
@@ -39,5 +39,4 @@ Invoke-RestMethod http://localhost:8085/health
 ## Tech Stack
 Ballerina, REST API, JSON, Microservices, API Gateway Pattern
 
-## Team
-Add members as collaborators in GitHub Settings > Collaborators
+
